@@ -1,0 +1,51 @@
+<?php
+App::uses('Controller', 'Controller');
+
+class AppController extends Controller {
+	public $components = array('Auth','DebugKit.Toolbar','Session');
+
+	public function beforeFilter() {
+		if($this->request->prefix == 'admin') {
+			$this->layout = 'admin';
+			AuthComponent::$sessionKey = 'Auth.Admin';
+			$this->Auth->loginAction = array('controller'=>'administrators','action'=>'login');
+			$this->Auth->loginRedirect = array('controller'=>'administrators','action'=>'dashboard');
+			$this->Auth->logoutRedirect = array('controller'=>'administrators','action'=>'login');
+			$this->Auth->authenticate = array(
+				'all' => array(
+					'scope' => array(
+						'Admin.status' => 1
+					)
+				),
+				'Form' => array(
+				   'userModel' => 'Admin',
+				   'passwordHasher' => 'Blowfish'
+				)
+			);
+			$this->Auth->allow('login');
+		} else {
+			AuthComponent::$sessionKey = 'Auth.User';
+			$this->Auth->loginAction = array('controller'=>'users','action'=>'login');
+			$this->Auth->loginRedirect = array('controller'=>'users','action'=>'profile');
+			$this->Auth->logoutRedirect = array('controller'=>'users','action'=>'login');
+			$this->Auth->authenticate = array(
+				'all' => array(
+					'scope' => array(
+						'User.status' => 1
+					)
+				),
+				'Form' => array(
+					'userModel' => 'User',
+					'passwordHasher' => 'Blowfish',
+					'fields' => array('username' => 'email')
+				)
+			);
+
+			$this->Auth->allow('login','index','contact_us');
+		}
+	}
+
+	public function isAuthorized($user){
+		return true;
+	}
+}

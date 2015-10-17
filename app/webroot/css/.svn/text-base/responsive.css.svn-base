@@ -1,0 +1,286 @@
+@media(max-width:1199px)
+{
+
+.avatar{width:80px;}
+.profile_res_show{width:56%;}
+/** Advance Search **/
+.ad_est{width:auto;}
+.ad_search{width:auto;}
+.ad_sfield{width:30%;}
+/** Advance Search End **/
+/** SignUp **/ 
+.signup_social{width:75%;margin:10px auto;}
+/** SignUp End **/
+/** Blogpost **/
+.post_content{width:83%;}
+.blog_post_div1 .post_content{width:81%;}
+/** Blogpost End **/
+/** Establishment **/
+.list_add .list_view .box_img{width: 38%;}
+.list_add .list_view .box_text{width: 60.5%;}
+/** Establishment End **/
+.login_signup_social{width:100%;}
+
+
+}
+
+@media(max-width:1024px)
+{
+
+body {padding-top: 61px;}
+.logo_div{width:240px;}
+/*.custome_container{width:60%;}*/
+.full-width{width:60%;}
+
+.navbar-default
+{
+	background-color: #ffffff;
+	padding-bottom:4px;	
+}
+/** Responsive Navigation **/
+.navbar-header {float: none;}
+.navbar-toggle {display: block;}
+.navbar-collapse
+{        
+	border-top: 1px solid #e7e7e7 !important;
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+}
+.navbar-collapse.collapse {display: none!important;}
+.navbar-collapse.collapse.in {display: block!important;}
+.navbar-nav {float: none!important;margin: 7.5px -15px;}
+.navbar-nav>li {float: none;}
+
+.navbar-right .dropdown-menu{left:0;}
+/** Responsive Navigation End **/
+	
+}
+
+@media (max-width: 990px)
+{
+
+.avatar{width:90px;}
+.profile_res_show{width:53%;}
+.navbar-default{margin-bottom:0;}
+.ttl{font-size:30px;}
+.srch_inpt{height:40px;}
+.seach_bn button{padding:12px 27px;}
+/** Membership Page **/
+.semiannual_lft{margin-bottom:10px;width:100%;}
+.semiannual_ryt{width:100%;} 
+/** Membership Page End **/
+
+/** Establishment Detail **/
+.es_share{width: 32%;}
+.rs_rating{width: 64%;}
+/** Establishment Detail End **/
+/** Blog **/
+.blog_title{width: 66%;}
+.blog_share{width: auto;float:right;}
+/** Blog End **/
+/** Advance Search **/
+.search_name{width:100%;margin-bottom:6px;}
+.search_location{width:100%}
+/** Advance Search End **/
+/** Signup and Login checkout **/
+
+/** Signup and Login checkout **/
+/** Blogpost **/
+.blog_avatar{width: 80px;}
+.post_content{width:80%;}
+.blog_post_div1 .post_content{width:78%;}
+/** Blogpost End **/
+/** checkout payment **/
+.chk_payment{padding:0;}
+/** checkout payment End **/
+.bill_padding,.bill_padding1{padding:0;}
+.bill1,.bill2{padding:0;}
+.bill1
+{	
+	border-bottom:1px solid #e7e7e7;
+	margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+/** Advance Search **/
+.ad_searchblk{width:60%;}
+/** Advance Search End **/
+.search_location{margin-left:0;}
+.aff_lft{padding-right: 2%;}
+.checkout2_checkbox{width:100%;}
+.das_bill_btn
+{
+	margin-left: 159px;
+    width: 70%;
+}
+.aff_ryt{width:50%;}
+.signup_news{margin-left:36.5%;}
+.ad_sfield .chosen-container .chosen-drop{width: 100%!important;}
+}
+
+@media (max-width: 767px)
+{
+/** Thumbnail Image **/
+.box_img img{width:100%;}
+/** Thumbnail Image End **/
+.navbar-nav > li.responsive_search{display:block;}
+#demo{display:none;}
+/** Dashboard left**/
+.dashboard_lft{margin-bottom:15px;}
+/** Dashboard left End **/
+
+/** Signup and Login checkout **/
+.login_signup_social{width:60%;}
+.chk_signup{margin-bottom:15px;}
+.chk_signup .login_signup_social{margin-top: 10px;}
+/** Signup and Login checkout **/
+/** Blogpost **/
+.blog_avatar{width: 13%;}
+.post_content{width:87%;}
+.blog_post_div1{width:100%;}
+.blog_post_div1 .post_content{width:85%;}
+/** Blogpost End **/
+.payment_billing{margin-bottom:15px;}
+
+.md1, .md2{padding:0;}
+/** Text align left **/
+.checkout_login form .control-label{text-align: left;}
+/** Text align left End **/
+.signup_news{margin-left:0;}
+.das_bill_btn
+{
+	margin-left: 0;
+    width: 100%;
+}
+.aff_lft{margin-right:0;margin-bottom:10px;}
+.login_margin{margin-top:10px;}
+}
+
+@media (max-width: 600px)
+{
+/** Index Page Advertisement **/ 
+.index_ads .adv1{display:none;}
+.adv2{display:block;}
+/** Index Page Advertisement End **/
+/** Establishment Detail **/
+.es_share
+{
+	margin-top:0;
+	width: 100%;
+}
+.rs_rating{width: 100%;}
+/** Establishment Detail End **/
+/** Advance Search **/
+.ad_searchblk
+{
+margin-top:10px;
+width:100%;
+}
+/** Advance Search End **/
+/** Blogpost **/
+.blog_avatar{width: 70px;}	
+.post_content{width:82%;}
+.blog_post_div1{width:100%;}
+.blog_post_div1 .post_content{width:82%;}
+/** Blogpost End **/
+/** checkout payment **/
+.payment_type{text-align:left;}
+.payment_type label{display:block;margin-left:0!important;}
+.bank_list{text-align:left;}
+.bank_list label{display:block;margin-left:0!important;}
+.payonline label{width: 150px;display:block;margin-left:0 !important;}
+/** checkout payment End **/
+.est_cate{width:100%;}
+.select_rec{width:100%;}
+
+.chk_breadcrumb span{width:100%;border:1px solid #cccccc !important;margin-left:0!important;}
+.chk_breadcrumb span:before, .chk_breadcrumb span:after{border:0!important;}
+
+.ad_sfield{width:60%;}
+}
+	
+@media (min-width: 601px) and (max-width: 767px)
+{
+
+/** Dashboard left End **/
+.profile_res_show{width:80%;}
+/** Dashboard left **/
+
+}
+
+@media (min-width: 481px) and (max-width: 600px)
+{	
+}
+
+@media (min-width: 400px) and (max-width: 480px) and (orientation:landscape)
+{	
+}
+
+@media (max-width: 480px)
+{
+	
+.search_index{padding:10px;}
+.ttl{font-size:24px;}
+.srch_inpt{height:30px;}
+.seach_bn button{padding:8px 27px;font-size:14px;}
+/** Membership Page **/
+.semi_img{width:100%;margin-bottom:5px;}
+.semi_benefits{width:100%;}
+/** Membership Page End **/
+.profile_res_show{width: 67%;}
+/** Blog **/
+.blog_title{width: 100%;}
+.blog_share{width: 100%;}
+/** Blog End **/
+/** SignUp **/ 
+.signup_social{width:100%;}
+/** SignUp End **/
+/** Signup and Login checkout **/
+.login_signup_social{width:100%;}
+/** Signup and Login checkout **/
+/** Blogpost **/
+.blog_comment .blog_share h4
+{
+	float:none;
+}
+.blog_avatar{width: 22%;}	
+.post_content{width:74%;}
+.blog_post_div1{width:100%;}
+.blog_post_div1 .post_content{width:74%;}
+/** Blogpost End **/
+/** Establishment **/
+.list_add .list_view .box_img{width: 100%;}
+.list_add .list_view .box_text{width: 100%;}
+/** Establishment End **/
+
+/** Affiliate member **/
+
+.aff_lft
+{
+	width:100%;
+	border-right:0;
+	border-bottom:1px solid #e7e7e7;
+	padding:0;
+}
+.aff_ryt
+{
+	width:100%;
+}
+/** Affiliate member End **/
+.ad_search{width:100%;}
+.ad_sfield{width:100%;}
+}
+
+@media (max-width: 358px)
+{
+
+.profile_res_show{width: 58%;}
+/** blogpost **/
+.blog_avatar{width: 60px;}
+.post_content{width:74%;}
+.blog_post_div1 .post_content{width:74%;}
+/** blogpost End **/
+.select_rec select{width:75%;}
+
+.adv_tabs .nav-tabs li{float:left;width:100%;border:1px solid #CCC;}
+.adv_tabs .nav-tabs li a{float:left;width:100%;border:0;border-radius:0;}
+.adv_tabs .nav > li > a:hover, .adv_tabs .nav > li > a:focus{border:0;}
+}

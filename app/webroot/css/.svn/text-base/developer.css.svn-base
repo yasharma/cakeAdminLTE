@@ -1,0 +1,54 @@
+#owl-demo .item img{
+	display: block;
+    width: 100%;
+    height: auto;
+}
+.error_margin{
+	margin-bottom: 0px;
+}
+/*.has-feedback .form-control-feedback {
+    top: 25px;
+    right: 0;
+}*/
+#login_modal > .modal-dialog.modal-sm > .modal-content > .modal-body > .popup_login > form > .has-feedback span,
+#forgot_modal > .modal-dialog.modal-sm > .modal-content > .modal-body > .popup_login > form > .has-feedback span {
+    top: 0px!important;
+    right: 0;
+}
+.loader-overlay {
+	z-index: 1000; background: rgba(255,255,255,0.7); border-radius: 3px; position: absolute;  height: 100%; width: 100%; text-align: center; color: #333;
+}
+.loader-overlay > i {
+	position: absolute; top: 50%; left: 50%; margin-left: -15px; margin-top: -15px; color: #000; font-size: 3em;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    background-color: #4F2B60;
+    border-color: #4F2B60;
+}
+
+#chosenForm .chosen-choices{
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    min-height: 34px;
+    padding: 6px 12px;
+}
+#recieptForm .chosenContainer .form-control-feedback {
+    /* Adjust feedback icon position */
+    right: -15px;
+}
+.chosenContainer .chosen-container { width:200%; }
+label{
+    color: #333!important;
+}
+/** 19@Aug **/
+.ad_sfield .chosen-container .chosen-drop{width:200%;text-align: left;}
+.ad_sfield .input-group{display: inline-block;}
+/*23Aug*/
+.ad_sfield .chosen-container{line-height: 2.5;}
+#recieptForm .chosen-choices{
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    min-height: 34px;
+    padding: 2px 12px;
+}
+#recieptForm li.search-field input.default { width: 100%!important; }

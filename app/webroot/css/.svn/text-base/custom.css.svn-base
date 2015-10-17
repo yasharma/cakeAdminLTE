@@ -1,0 +1,26 @@
+.alert{
+	border-radius: 0px;
+}
+.login-box-body{
+	box-shadow: 0 2px 3px rgba(0,0,0,0.125);
+	-webkit-box-shadow: 0 2px 3px rgba(0,0,0,0.125);
+	-moz-box-shadow: 0 2px 3px rgba(0,0,0,0.125);
+}
+.bootstrap-tagsinput {
+    width: 100%;
+}
+ .box-header.with-border .checkbox{
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    float: right;
+    margin-right: 30px;
+  }
+  .map_canvas{
+    float:left;
+    width:65%;
+    height:250px;
+}
+.no_resize{
+    resize: none;
+}

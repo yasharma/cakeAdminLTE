@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/repos/reservation/!svn/ver/2/lib/Cake/Test/Case/Core
+END
+AppTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/reservation/!svn/ver/2/lib/Cake/Test/Case/Core/AppTest.php
+END
+ConfigureTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/reservation/!svn/ver/2/lib/Cake/Test/Case/Core/ConfigureTest.php
+END
+CakePluginTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/reservation/!svn/ver/2/lib/Cake/Test/Case/Core/CakePluginTest.php
+END
+ObjectTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/reservation/!svn/ver/2/lib/Cake/Test/Case/Core/ObjectTest.php
+END

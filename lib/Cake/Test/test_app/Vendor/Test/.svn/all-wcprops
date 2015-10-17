@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/reservation/!svn/ver/2/lib/Cake/Test/test_app/Vendor/Test
+END
+hello.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/reservation/!svn/ver/2/lib/Cake/Test/test_app/Vendor/Test/hello.php
+END
+MyTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/reservation/!svn/ver/2/lib/Cake/Test/test_app/Vendor/Test/MyTest.php
+END

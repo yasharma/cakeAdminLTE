@@ -1,0 +1,2303 @@
+2015-09-26 11:35:40 Error: [MissingControllerException] Controller class AdministratorsController could not be found.
+Exception Attributes: array (
+  'class' => 'AdministratorsController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/admin
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 11:36:23 Error: [MissingActionException] Action AdministratorsController::admin_login() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdministratorsController',
+  'action' => 'admin_login',
+)
+Request URL: /reservation/admin/administrators/login
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdministratorsController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-26 11:36:43 Error: [MissingActionException] Action AdministratorsController::admin_login() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdministratorsController',
+  'action' => 'admin_login',
+)
+Request URL: /reservation/admin/administrators/login
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdministratorsController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-26 11:42:24 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/user/login
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 11:44:46 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/user/login
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 11:44:59 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /reservation/users/login
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-26 11:45:26 Error: [MissingActionException] Action AdministratorsController::admin_index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdministratorsController',
+  'action' => 'admin_index',
+)
+Request URL: /reservation/admin
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdministratorsController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-26 11:45:50 Error: [MissingActionException] Action AdministratorsController::admin_index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdministratorsController',
+  'action' => 'admin_index',
+)
+Request URL: /reservation/admin
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdministratorsController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-26 11:46:17 Error: [MissingActionException] Action AdministratorsController::admin_index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdministratorsController',
+  'action' => 'admin_index',
+)
+Request URL: /reservation/admin
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdministratorsController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-26 11:48:40 Error: [MissingTableException] Table admins for model admin was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'admins',
+  'class' => 'admin',
+  'ds' => 'default',
+)
+Request URL: /reservation/admin
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/lib/Cake/Model/Model.php(3648): Model->setSource('admins')
+#1 /opt/lampp/htdocs/reservation/lib/Cake/Model/Model.php(1387): Model->getDataSource()
+#2 /opt/lampp/htdocs/reservation/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#3 /opt/lampp/htdocs/reservation/lib/Cake/View/Helper/FormHelper.php(468): FormHelper->_introspectModel('admin', 'fields')
+#4 /opt/lampp/htdocs/reservation/app/View/Administrators/admin_login.ctp(2): FormHelper->create()
+#5 /opt/lampp/htdocs/reservation/lib/Cake/View/View.php(971): include('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/reservation/lib/Cake/View/View.php(933): View->_evaluate('/opt/lampp/htdo...', Array)
+#7 /opt/lampp/htdocs/reservation/lib/Cake/View/View.php(473): View->_render('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/reservation/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#9 /opt/lampp/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#10 /opt/lampp/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdministratorsController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-09-26 11:57:02 Error: [MissingControllerException] Controller class AdminsController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminsController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/admin/admins/login
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 11:57:02 Error: [MissingControllerException] Controller class AdminsController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminsController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/admin/admins/login
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 11:57:24 Error: [MissingControllerException] Controller class AdminsController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminsController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/admin/admins/login
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 12:01:07 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.status' in 'where clause'
+Request URL: /reservation/admin
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/reservation/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Admin`....', Array)
+#2 /opt/lampp/htdocs/reservation/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Admin`....', Array, Array)
+#3 /opt/lampp/htdocs/reservation/lib/Cake/Model/Datasource/DboSource.php(1114): DboSource->fetchAll('SELECT `Admin`....', false)
+#4 /opt/lampp/htdocs/reservation/lib/Cake/Model/Model.php(3026): DboSource->read(Object(AppModel), Array)
+#5 /opt/lampp/htdocs/reservation/lib/Cake/Model/Model.php(2998): Model->_readDataSource('first', Array)
+#6 /opt/lampp/htdocs/reservation/lib/Cake/Controller/Component/Auth/BaseAuthenticate.php(130): Model->find('first', Array)
+#7 /opt/lampp/htdocs/reservation/lib/Cake/Controller/Component/Auth/FormAuthenticate.php(79): BaseAuthenticate->_findUser('admin', '123456')
+#8 /opt/lampp/htdocs/reservation/lib/Cake/Controller/Component/AuthComponent.php(764): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/reservation/lib/Cake/Controller/Component/AuthComponent.php(609): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#10 /opt/lampp/htdocs/reservation/app/Controller/AdministratorsController.php(11): AuthComponent->login()
+#11 [internal function]: AdministratorsController->admin_login()
+#12 /opt/lampp/htdocs/reservation/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(AdministratorsController), Array)
+#13 /opt/lampp/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#14 /opt/lampp/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdministratorsController), Object(CakeRequest))
+#15 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2015-09-26 12:01:07 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.status' in 'where clause'
+Request URL: /reservation/admin
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/reservation/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Admin`....', Array)
+#2 /opt/lampp/htdocs/reservation/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Admin`....', Array, Array)
+#3 /opt/lampp/htdocs/reservation/lib/Cake/Model/Datasource/DboSource.php(1114): DboSource->fetchAll('SELECT `Admin`....', false)
+#4 /opt/lampp/htdocs/reservation/lib/Cake/Model/Model.php(3026): DboSource->read(Object(AppModel), Array)
+#5 /opt/lampp/htdocs/reservation/lib/Cake/Model/Model.php(2998): Model->_readDataSource('first', Array)
+#6 /opt/lampp/htdocs/reservation/lib/Cake/Controller/Component/Auth/BaseAuthenticate.php(130): Model->find('first', Array)
+#7 /opt/lampp/htdocs/reservation/lib/Cake/Controller/Component/Auth/FormAuthenticate.php(79): BaseAuthenticate->_findUser('admin', '123456')
+#8 /opt/lampp/htdocs/reservation/lib/Cake/Controller/Component/AuthComponent.php(764): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/reservation/lib/Cake/Controller/Component/AuthComponent.php(609): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#10 /opt/lampp/htdocs/reservation/app/Controller/AdministratorsController.php(11): AuthComponent->login()
+#11 [internal function]: AdministratorsController->admin_login()
+#12 /opt/lampp/htdocs/reservation/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(AdministratorsController), Array)
+#13 /opt/lampp/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#14 /opt/lampp/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdministratorsController), Object(CakeRequest))
+#15 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2015-09-26 12:01:44 Error: [MissingActionException] Action AdministratorsController::admin_dashboard() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdministratorsController',
+  'action' => 'admin_dashboard',
+)
+Request URL: /reservation/admin/administrators/dashboard
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdministratorsController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-26 12:02:47 Error: Fatal Error (1): Call to undefined method AuthComponent::Admin() in [/opt/lampp/htdocs/reservation/app/Controller/AdministratorsController.php, line 20]
+2015-09-26 12:02:47 Error: [FatalErrorException] Call to undefined method AuthComponent::Admin()
+Request URL: /reservation/admin/administrators/dashboard
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/opt/lampp/htdo...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/opt/lampp/htdo...', 20, Array)
+#2 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/opt/lampp/htdo...', 20, Array)
+#3 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-26 12:04:39 Error: Fatal Error (1): Call to a member function read() on a non-object in [/opt/lampp/htdocs/reservation/app/Controller/AdministratorsController.php, line 20]
+2015-09-26 12:04:39 Error: [FatalErrorException] Call to a member function read() on a non-object
+Request URL: /reservation/admin/administrators/dashboard
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 20, Array)
+#2 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 20, Array)
+#3 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-26 12:04:51 Error: [MissingViewException] View file "Administrators/admin_dashboard.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Administrators/admin_dashboard.ctp',
+)
+Request URL: /reservation/admin/administrators/dashboard
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /opt/lampp/htdocs/reservation/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /opt/lampp/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /opt/lampp/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdministratorsController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-26 12:05:36 Error: Fatal Error (1): Call to undefined method AuthComponent::admin() in [/opt/lampp/htdocs/reservation/app/Controller/AdministratorsController.php, line 20]
+2015-09-26 12:05:36 Error: [FatalErrorException] Call to undefined method AuthComponent::admin()
+Request URL: /reservation/admin/administrators/dashboard
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/opt/lampp/htdo...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/opt/lampp/htdo...', 20, Array)
+#2 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/opt/lampp/htdo...', 20, Array)
+#3 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-26 12:05:42 Error: Fatal Error (1): Call to undefined method AuthComponent::Admin() in [/opt/lampp/htdocs/reservation/app/Controller/AdministratorsController.php, line 20]
+2015-09-26 12:05:42 Error: [FatalErrorException] Call to undefined method AuthComponent::Admin()
+Request URL: /reservation/admin/administrators/dashboard
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/opt/lampp/htdo...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/opt/lampp/htdo...', 20, Array)
+#2 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/opt/lampp/htdo...', 20, Array)
+#3 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-26 12:05:49 Error: Fatal Error (1): Call to undefined method AuthComponent::admin() in [/opt/lampp/htdocs/reservation/app/Controller/AdministratorsController.php, line 20]
+2015-09-26 12:05:49 Error: [FatalErrorException] Call to undefined method AuthComponent::admin()
+Request URL: /reservation/admin/administrators/dashboard
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/opt/lampp/htdo...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/opt/lampp/htdo...', 20, Array)
+#2 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/opt/lampp/htdo...', 20, Array)
+#3 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-26 12:06:40 Error: Fatal Error (1): Call to undefined method AuthComponent::Admin() in [/opt/lampp/htdocs/reservation/app/Controller/AdministratorsController.php, line 20]
+2015-09-26 12:06:40 Error: [FatalErrorException] Call to undefined method AuthComponent::Admin()
+Request URL: /reservation/admin/administrators/dashboard
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/opt/lampp/htdo...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/opt/lampp/htdo...', 20, Array)
+#2 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/opt/lampp/htdo...', 20, Array)
+#3 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-26 12:06:41 Error: Fatal Error (1): Call to undefined method AuthComponent::Admin() in [/opt/lampp/htdocs/reservation/app/Controller/AdministratorsController.php, line 20]
+2015-09-26 12:06:41 Error: [FatalErrorException] Call to undefined method AuthComponent::Admin()
+Request URL: /reservation/admin/administrators/dashboard
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/opt/lampp/htdo...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/opt/lampp/htdo...', 20, Array)
+#2 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/opt/lampp/htdo...', 20, Array)
+#3 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-26 12:06:42 Error: Fatal Error (1): Call to undefined method AuthComponent::Admin() in [/opt/lampp/htdocs/reservation/app/Controller/AdministratorsController.php, line 20]
+2015-09-26 12:06:42 Error: [FatalErrorException] Call to undefined method AuthComponent::Admin()
+Request URL: /reservation/admin/administrators/dashboard
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/opt/lampp/htdo...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/opt/lampp/htdo...', 20, Array)
+#2 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/opt/lampp/htdo...', 20, Array)
+#3 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-26 12:06:42 Error: Fatal Error (1): Call to undefined method AuthComponent::Admin() in [/opt/lampp/htdocs/reservation/app/Controller/AdministratorsController.php, line 20]
+2015-09-26 12:06:42 Error: [FatalErrorException] Call to undefined method AuthComponent::Admin()
+Request URL: /reservation/admin/administrators/dashboard
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/opt/lampp/htdo...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/opt/lampp/htdo...', 20, Array)
+#2 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/opt/lampp/htdo...', 20, Array)
+#3 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-26 12:23:29 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /reservation/users/login
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/lib/Cake/Model/Model.php(3648): Model->setSource('users')
+#1 /opt/lampp/htdocs/reservation/lib/Cake/Model/Model.php(1387): Model->getDataSource()
+#2 /opt/lampp/htdocs/reservation/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#3 /opt/lampp/htdocs/reservation/lib/Cake/View/Helper/FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#4 /opt/lampp/htdocs/reservation/app/View/Users/login.ctp(2): FormHelper->create()
+#5 /opt/lampp/htdocs/reservation/lib/Cake/View/View.php(971): include('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/reservation/lib/Cake/View/View.php(933): View->_evaluate('/opt/lampp/htdo...', Array)
+#7 /opt/lampp/htdocs/reservation/lib/Cake/View/View.php(473): View->_render('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/reservation/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#9 /opt/lampp/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#10 /opt/lampp/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-09-26 12:35:33 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /reservation/users/
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-26 12:39:31 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in [/opt/lampp/htdocs/reservation/app/View/Administrators/admin_dashboard.ctp, line 4]
+2015-09-26 12:39:31 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'
+Request URL: /reservation/admin/administrators/dashboard
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 4, Array)
+#2 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 4, Array)
+#3 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-26 12:43:46 Error: [MissingControllerException] Controller class ContactUsController could not be found.
+Exception Attributes: array (
+  'class' => 'ContactUsController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/contactUs
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 13:28:09 Error: [MissingControllerException] Controller class CkeditorController could not be found.
+Exception Attributes: array (
+  'class' => 'CkeditorController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/ckeditor/ckeditor.js
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 13:28:09 Error: [MissingControllerException] Controller class CkeditorController could not be found.
+Exception Attributes: array (
+  'class' => 'CkeditorController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/ckeditor/adapters/jquery.js
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 13:39:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/img/blue.png
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 14:26:58 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 14:28:20 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 14:28:21 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 14:30:37 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 14:30:39 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 14:31:28 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 14:31:29 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 14:32:10 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 14:32:10 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 14:36:58 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 14:36:59 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 14:37:50 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 14:37:50 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 14:39:13 Error: [MissingControllerException] Controller class MailboxController could not be found.
+Exception Attributes: array (
+  'class' => 'MailboxController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/admin/mailbox/mailbox.html
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 14:39:14 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 14:39:14 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 14:47:25 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 14:48:04 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 14:48:04 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 14:48:46 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 14:48:46 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 14:55:20 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 14:55:20 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:23:20 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:23:27 Error: [MissingControllerException] Controller class AdministratorController could not be found.
+Exception Attributes: array (
+  'class' => 'AdministratorController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/admin/administrator/profile
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:23:27 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:23:44 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:23:44 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:23:47 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:26:11 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:26:42 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:26:50 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:26:54 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:26:54 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:27:21 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:27:34 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:27:35 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:28:43 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:28:43 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:29:50 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:29:52 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:29:53 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:37:06 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:37:08 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:37:20 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:37:21 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:37:56 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:37:57 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:39:16 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:40:37 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:40:37 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:42:36 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:42:37 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:42:56 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:42:57 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:43:12 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:43:12 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:43:16 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:43:16 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:43:20 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:43:20 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:43:35 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:43:35 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:47:36 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:47:36 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:54:57 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:54:58 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:55:20 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:55:20 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/img/home.png
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:55:21 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:55:21 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/img/home.png
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:55:54 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:55:55 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:56:05 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 15:56:05 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 16:04:43 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 16:04:46 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 16:07:22 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/opt/lampp/htdocs/reservation/app/View/Administrators/admin_profile.ctp, line 5]
+2015-09-26 16:07:22 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /reservation/admin/administrators/profile
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 5, Array)
+#2 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 5, Array)
+#3 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-26 16:07:23 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 16:07:59 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 16:08:47 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 16:08:47 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 16:09:01 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 16:09:07 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 16:10:44 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 16:13:16 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 16:13:25 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 16:14:32 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-26 16:14:32 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 09:31:09 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 09:38:05 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 09:38:06 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 09:45:38 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 09:45:50 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 09:45:51 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 10:32:36 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 10:32:59 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 10:52:53 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 10:52:53 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 10:53:47 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 10:53:47 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 11:23:17 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 11:23:17 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 11:23:36 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 11:23:37 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 11:27:14 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 11:27:15 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 11:36:04 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 11:36:05 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 11:36:43 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 11:36:44 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 11:38:08 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 11:39:23 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 11:39:30 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 11:40:07 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 11:40:07 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 11:45:04 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 11:45:04 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/img/adminProfileImage/1443507511.png
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 11:45:05 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 11:45:05 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/img/adminProfileImage/1443507511.png
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 11:46:43 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 11:46:43 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 11:48:47 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 11:48:47 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 11:49:34 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 11:49:35 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 11:50:42 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 11:50:42 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 11:53:22 Error: Fatal Error (1): Call to undefined method View::clearStatCache() in [/opt/lampp/htdocs/reservation/lib/Cake/Utility/File.php, line 411]
+2015-09-29 11:53:22 Error: [FatalErrorException] Call to undefined method View::clearStatCache()
+Request URL: /reservation/admin/administrators/profile
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/opt/lampp/htdo...', 411)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/opt/lampp/htdo...', 411, Array)
+#2 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/opt/lampp/htdo...', 411, Array)
+#3 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-29 11:53:23 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 11:53:23 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 11:59:32 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 11:59:34 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 12:08:08 Error: Fatal Error (4): syntax error, unexpected '[', expecting ')' in [/opt/lampp/htdocs/reservation/app/View/Administrators/admin_profile.ctp, line 116]
+2015-09-29 12:08:08 Error: [FatalErrorException] syntax error, unexpected '[', expecting ')'
+Request URL: /reservation/admin/administrators/profile
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 116)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 116, Array)
+#2 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 116, Array)
+#3 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-29 12:08:44 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 12:08:45 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 12:33:05 Error: Fatal Error (1): Call to a member function move() on a non-object in [/opt/lampp/htdocs/reservation/app/Controller/AdministratorsController.php, line 33]
+2015-09-29 12:33:05 Error: [FatalErrorException] Call to a member function move() on a non-object
+Request URL: /reservation/admin/administrators/profile
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 33)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 33, Array)
+#2 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 33, Array)
+#3 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-29 12:33:05 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 12:43:42 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 12:43:43 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 12:44:08 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 12:44:20 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 12:45:47 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 12:50:36 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 12:50:36 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 13:02:27 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [/opt/lampp/htdocs/reservation/app/Model/Admin.php, line 22]
+2015-09-29 13:02:27 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /reservation/admin/administrators/profile
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 22, Array)
+#2 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 22, Array)
+#3 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-29 13:02:27 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 13:02:27 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 13:03:25 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [/opt/lampp/htdocs/reservation/app/Model/Admin.php, line 23]
+2015-09-29 13:03:25 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /reservation/admin/administrators/profile
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 23, Array)
+#2 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 23, Array)
+#3 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-29 13:03:25 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 13:03:26 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 13:03:35 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 13:04:57 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 13:04:57 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 13:05:06 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 13:05:07 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 13:06:45 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 13:06:46 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 13:14:11 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 13:14:11 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 13:14:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/img/adminProfileImage/1443507511.png
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 13:14:49 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 13:14:49 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 13:14:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/img/adminProfileImage/1443507511.png
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 13:15:30 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 13:18:06 Error: Fatal Error (4): syntax error, unexpected ')' in [/opt/lampp/htdocs/reservation/app/View/Administrators/admin_profile.ctp, line 106]
+2015-09-29 13:18:06 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /reservation/admin/administrators/profile
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 106)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 106, Array)
+#2 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 106, Array)
+#3 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-29 15:08:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/img/adminProfileImage/1443526002.png
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-29 15:08:36 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/img/adminProfileImage/1443526002.png
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-30 06:39:19 Error: Fatal Error (1): Call to undefined function base_path() in [/opt/lampp/htdocs/reservation/app/Controller/AdministratorsController.php, line 27]
+2015-09-30 06:39:20 Error: [FatalErrorException] Call to undefined function base_path()
+Request URL: /reservation/admin/administrators/profile
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/opt/lampp/htdo...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/opt/lampp/htdo...', 27, Array)
+#2 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/opt/lampp/htdo...', 27, Array)
+#3 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-30 06:39:30 Error: Fatal Error (1): Call to undefined function public_path() in [/opt/lampp/htdocs/reservation/app/Controller/AdministratorsController.php, line 27]
+2015-09-30 06:39:30 Error: [FatalErrorException] Call to undefined function public_path()
+Request URL: /reservation/admin/administrators/profile
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/opt/lampp/htdo...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/opt/lampp/htdo...', 27, Array)
+#2 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/opt/lampp/htdo...', 27, Array)
+#3 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-30 07:42:57 Error: [MissingActionException] Action AdministratorsController::admin_update_password() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdministratorsController',
+  'action' => 'admin_update_password',
+)
+Request URL: /reservation/admin/administrators/update_password
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdministratorsController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-30 07:51:53 Error: [MissingViewException] View file "Administrators/admin_check_password.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Administrators/admin_check_password.ctp',
+)
+Request URL: /reservation/admin/administrators/check_password
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /opt/lampp/htdocs/reservation/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /opt/lampp/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /opt/lampp/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdministratorsController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-30 07:52:00 Error: [MissingViewException] View file "Administrators/admin_check_password.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Administrators/admin_check_password.ctp',
+)
+Request URL: /reservation/admin/administrators/check_password
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /opt/lampp/htdocs/reservation/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /opt/lampp/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /opt/lampp/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdministratorsController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-30 07:59:02 Error: Fatal Error (1): Call to a member function field() on a non-object in [/opt/lampp/htdocs/reservation/app/Model/Admin.php, line 36]
+2015-09-30 07:59:02 Error: [FatalErrorException] Call to a member function field() on a non-object
+Request URL: /reservation/admin/administrators/check_password
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 36)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 36, Array)
+#2 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 36, Array)
+#3 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-30 07:59:02 Error: Fatal Error (1): Call to a member function field() on a non-object in [/opt/lampp/htdocs/reservation/app/Model/Admin.php, line 36]
+2015-09-30 07:59:02 Error: [FatalErrorException] Call to a member function field() on a non-object
+Request URL: /reservation/admin/administrators/check_password
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 36)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 36, Array)
+#2 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 36, Array)
+#3 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-30 07:59:09 Error: Fatal Error (1): Call to a member function field() on a non-object in [/opt/lampp/htdocs/reservation/app/Model/Admin.php, line 36]
+2015-09-30 07:59:09 Error: [FatalErrorException] Call to a member function field() on a non-object
+Request URL: /reservation/admin/administrators/check_password
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 36)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 36, Array)
+#2 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 36, Array)
+#3 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-30 08:00:13 Error: Fatal Error (1): Call to a member function field() on a non-object in [/opt/lampp/htdocs/reservation/app/Model/Admin.php, line 36]
+2015-09-30 08:00:13 Error: [FatalErrorException] Call to a member function field() on a non-object
+Request URL: /reservation/admin/administrators/check_password
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 36)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 36, Array)
+#2 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 36, Array)
+#3 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-30 08:00:13 Error: Fatal Error (1): Call to a member function field() on a non-object in [/opt/lampp/htdocs/reservation/app/Model/Admin.php, line 36]
+2015-09-30 08:00:13 Error: [FatalErrorException] Call to a member function field() on a non-object
+Request URL: /reservation/admin/administrators/check_password
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 36)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 36, Array)
+#2 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 36, Array)
+#3 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-30 08:02:04 Error: Fatal Error (1): Call to a member function field() on a non-object in [/opt/lampp/htdocs/reservation/app/Model/Admin.php, line 35]
+2015-09-30 08:02:04 Error: [FatalErrorException] Call to a member function field() on a non-object
+Request URL: /reservation/admin/administrators/check_password
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 35)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 35, Array)
+#2 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 35, Array)
+#3 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-30 08:02:04 Error: Fatal Error (1): Call to a member function field() on a non-object in [/opt/lampp/htdocs/reservation/app/Model/Admin.php, line 35]
+2015-09-30 08:02:04 Error: [FatalErrorException] Call to a member function field() on a non-object
+Request URL: /reservation/admin/administrators/check_password
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 35)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 35, Array)
+#2 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 35, Array)
+#3 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-30 08:15:27 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/img/adminProfileImage/beach_female_fit.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-30 08:15:30 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/img/adminProfileImage/beach_female_fit.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-30 08:15:30 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/img/adminProfileImage/beach_female_fit.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-30 08:16:12 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/img/adminProfileImage/beach_female_fit.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-30 08:16:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/img/adminProfileImage/beach_female_fit.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-30 09:28:35 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/img/adminProfileImage/beach_female_fit.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-30 09:31:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/img/adminProfileImage/beach_female_fit.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-30 09:31:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/img/adminProfileImage/beach_female_fit.jpg
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-30 10:23:21 Error: Fatal Error (4): syntax error, unexpected '?>' in [/opt/lampp/htdocs/reservation/app/View/Administrators/admin_dashboard.ctp, line 13]
+2015-09-30 10:23:21 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /reservation/admin/administrators/dashboard
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 13, Array)
+#2 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 13, Array)
+#3 /opt/lampp/htdocs/reservation/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-30 11:01:33 Error: [MissingActionException] Action UsersController::admin_index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'admin_index',
+)
+Request URL: /reservation/admin/users
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-30 11:55:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/img/adminProfileImage/1443598329.png
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-30 11:55:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /reservation/img/adminProfileImage/1443598329.png
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-30 12:50:18 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.contact' in 'field list'
+Request URL: /reservation/admin/users/index
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/reservation/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /opt/lampp/htdocs/reservation/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /opt/lampp/htdocs/reservation/lib/Cake/Model/Datasource/DboSource.php(1114): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /opt/lampp/htdocs/reservation/lib/Cake/Model/Model.php(3026): DboSource->read(Object(User), Array)
+#5 /opt/lampp/htdocs/reservation/lib/Cake/Model/Model.php(2998): Model->_readDataSource('all', Array)
+#6 /opt/lampp/htdocs/reservation/app/Model/User.php(41): Model->find('all', Array)
+#7 /opt/lampp/htdocs/reservation/app/Controller/UsersController.php(15): User->getUsersList()
+#8 [internal function]: UsersController->admin_index()
+#9 /opt/lampp/htdocs/reservation/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 /opt/lampp/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /opt/lampp/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#12 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-10-01 09:15:46 Error: [MissingActionException] Action UsersController::admin_delete() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'admin_delete',
+)
+Request URL: /reservation/admin/users/delete
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-10-01 11:36:52 Error: [MissingActionException] Action AdministratorsController::admin_update_status() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdministratorsController',
+  'action' => 'admin_update_status',
+)
+Request URL: /reservation/admin/administrators/update_status
+Stack Trace:
+#0 /opt/lampp/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdministratorsController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-10-04 13:57:28 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2003] Can\'t connect to MySQL server on \'192.168.1.252\' (4)',
+  'enabled' => true,
+)
+Request URL: /htdocs/reservation/admin
+Stack Trace:
+#0 /home/yash/htdocs/reservation/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /home/yash/htdocs/reservation/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /home/yash/htdocs/reservation/lib/Cake/Model/Model.php(3621): ConnectionManager::getDataSource('default')
+#3 /home/yash/htdocs/reservation/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /home/yash/htdocs/reservation/lib/Cake/Model/Model.php(3648): Model->setSource('admins')
+#5 /home/yash/htdocs/reservation/lib/Cake/Model/Model.php(1387): Model->getDataSource()
+#6 /home/yash/htdocs/reservation/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#7 /home/yash/htdocs/reservation/lib/Cake/View/Helper/FormHelper.php(468): FormHelper->_introspectModel('Admin', 'fields')
+#8 /home/yash/htdocs/reservation/app/View/Administrators/admin_login.ctp(6): FormHelper->create()
+#9 /home/yash/htdocs/reservation/lib/Cake/View/View.php(971): include('/home/yash/htdo...')
+#10 /home/yash/htdocs/reservation/lib/Cake/View/View.php(933): View->_evaluate('/home/yash/htdo...', Array)
+#11 /home/yash/htdocs/reservation/lib/Cake/View/View.php(473): View->_render('/home/yash/htdo...')
+#12 /home/yash/htdocs/reservation/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#13 /home/yash/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#14 /home/yash/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdministratorsController), Object(CakeRequest))
+#15 /home/yash/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2015-10-06 23:50:22 Error: Fatal Error (4): syntax error, unexpected '12345' (T_LNUMBER), expecting '&' or variable (T_VARIABLE) in [/home/yash/htdocs/reservation/app/Test/Case/Model/AdminTest.php, line 12]
+2015-10-06 23:50:23 Error: [FatalErrorException] syntax error, unexpected '12345' (T_LNUMBER), expecting '&' or variable (T_VARIABLE)
+Stack Trace:
+#0 /home/yash/htdocs/reservation/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/yash/htdo...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/yash/htdo...', 12, Array)
+#2 /home/yash/htdocs/reservation/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/yash/htdo...', 12, Array)
+#3 /home/yash/htdocs/reservation/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-10-06 23:50:51 Error: Fatal Error (4): syntax error, unexpected ''123456'' (T_CONSTANT_ENCAPSED_STRING), expecting '&' or variable (T_VARIABLE) in [/home/yash/htdocs/reservation/app/Test/Case/Model/AdminTest.php, line 12]
+2015-10-06 23:50:51 Error: [FatalErrorException] syntax error, unexpected ''123456'' (T_CONSTANT_ENCAPSED_STRING), expecting '&' or variable (T_VARIABLE)
+Stack Trace:
+#0 /home/yash/htdocs/reservation/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/yash/htdo...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/yash/htdo...', 12, Array)
+#2 /home/yash/htdocs/reservation/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/yash/htdo...', 12, Array)
+#3 /home/yash/htdocs/reservation/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-10-06 23:51:22 Error: Fatal Error (4): syntax error, unexpected '$password' (T_VARIABLE), expecting function (T_FUNCTION) in [/home/yash/htdocs/reservation/app/Test/Case/Model/AdminTest.php, line 12]
+2015-10-06 23:51:22 Error: [FatalErrorException] syntax error, unexpected '$password' (T_VARIABLE), expecting function (T_FUNCTION)
+Stack Trace:
+#0 /home/yash/htdocs/reservation/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/yash/htdo...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/yash/htdo...', 12, Array)
+#2 /home/yash/htdocs/reservation/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/yash/htdo...', 12, Array)
+#3 /home/yash/htdocs/reservation/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-10-10 23:06:43 Error: [MissingControllerException] Controller class CoverageController could not be found.
+Exception Attributes: array (
+  'class' => 'CoverageController',
+  'plugin' => NULL,
+)
+Request URL: /htdocs/reservation/coverage
+Stack Trace:
+#0 /home/yash/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-10 23:06:59 Error: [MissingControllerException] Controller class CoverageController could not be found.
+Exception Attributes: array (
+  'class' => 'CoverageController',
+  'plugin' => NULL,
+)
+Request URL: /htdocs/reservation/coverage
+Stack Trace:
+#0 /home/yash/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-10 23:07:53 Error: [MissingControllerException] Controller class CoverageController could not be found.
+Exception Attributes: array (
+  'class' => 'CoverageController',
+  'plugin' => NULL,
+)
+Request URL: /htdocs/reservation/coverage
+Stack Trace:
+#0 /home/yash/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-18 01:34:14 Error: [MissingViewException] View file "Users/admin_index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/admin_index.ctp',
+)
+Request URL: /htdocs/reservation/admin/users
+Stack Trace:
+#0 /home/yash/htdocs/reservation/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/yash/htdocs/reservation/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home/yash/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/yash/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /home/yash/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-10-18 01:34:19 Error: [MissingActionException] Action AdministratorsController::admin_dashboard() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdministratorsController',
+  'action' => 'admin_dashboard',
+)
+Request URL: /htdocs/reservation/admin/administrators/dashboard
+Stack Trace:
+#0 /home/yash/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/yash/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdministratorsController), Object(CakeRequest))
+#2 /home/yash/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-10-18 01:34:21 Error: [MissingActionException] Action AdministratorsController::admin_dashboard() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdministratorsController',
+  'action' => 'admin_dashboard',
+)
+Request URL: /htdocs/reservation/admin/administrators/dashboard
+Stack Trace:
+#0 /home/yash/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/yash/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdministratorsController), Object(CakeRequest))
+#2 /home/yash/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-10-18 01:53:25 Error: [MissingViewException] View file "Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/login.ctp',
+)
+Request URL: /htdocs/reservation/users/login
+Stack Trace:
+#0 /home/yash/htdocs/reservation/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/yash/htdocs/reservation/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home/yash/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/yash/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /home/yash/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-10-18 01:53:41 Error: [MissingViewException] View file "Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/login.ctp',
+)
+Request URL: /htdocs/reservation/users/login
+Stack Trace:
+#0 /home/yash/htdocs/reservation/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/yash/htdocs/reservation/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home/yash/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/yash/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /home/yash/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
