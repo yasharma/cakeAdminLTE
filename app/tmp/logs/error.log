@@ -2301,3 +2301,70 @@ Stack Trace:
 #3 /home/yash/htdocs/reservation/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
 #4 /home/yash/htdocs/reservation/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2015-10-18 02:10:26 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /htdocs/cakeAdminLTE/
+Stack Trace:
+#0 /home/yash/htdocs/cakeAdminLTE/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /home/yash/htdocs/cakeAdminLTE/index.php(41): require('/home/yash/htdo...')
+#2 {main}
+2015-10-18 02:12:31 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /htdocs/cakeAdminLTE/
+Stack Trace:
+#0 /home/yash/htdocs/cakeAdminLTE/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-18 02:13:39 Error: [MissingViewException] View file "Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/login.ctp',
+)
+Request URL: /htdocs/cakeAdminLTE/users/login
+Stack Trace:
+#0 /home/yash/htdocs/cakeAdminLTE/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/yash/htdocs/cakeAdminLTE/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home/yash/htdocs/cakeAdminLTE/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/yash/htdocs/cakeAdminLTE/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /home/yash/htdocs/cakeAdminLTE/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-10-18 02:13:54 Error: [MissingViewException] View file "Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/login.ctp',
+)
+Request URL: /htdocs/cakeAdminLTE/users/login
+Stack Trace:
+#0 /home/yash/htdocs/cakeAdminLTE/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/yash/htdocs/cakeAdminLTE/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home/yash/htdocs/cakeAdminLTE/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/yash/htdocs/cakeAdminLTE/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /home/yash/htdocs/cakeAdminLTE/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-10-18 02:14:33 Error: [MissingViewException] View file "Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/login.ctp',
+)
+Request URL: /htdocs/cakeAdminLTE/users/login
+Stack Trace:
+#0 /home/yash/htdocs/cakeAdminLTE/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/yash/htdocs/cakeAdminLTE/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home/yash/htdocs/cakeAdminLTE/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/yash/htdocs/cakeAdminLTE/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /home/yash/htdocs/cakeAdminLTE/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-10-18 02:19:59 Error: [MissingViewException] View file "Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/login.ctp',
+)
+Request URL: /htdocs/cakeAdminLTE/users/login
+Stack Trace:
+#0 /home/yash/htdocs/cakeAdminLTE/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/yash/htdocs/cakeAdminLTE/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home/yash/htdocs/cakeAdminLTE/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/yash/htdocs/cakeAdminLTE/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /home/yash/htdocs/cakeAdminLTE/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
