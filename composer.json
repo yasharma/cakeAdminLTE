@@ -1,5 +1,5 @@
 {
-	"name": "cakephp/cakephp",
+	"name": "cakephp/cakeAdminLTE",
 	"description": "The CakePHP framework",
 	"type": "library",
 	"keywords": ["framework","cakephp","adminlte"],
