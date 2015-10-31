@@ -1,3 +1,4 @@
+<?php echo $this->assign('title', 'Dashboard'); ?>
 <section class="content-header">
 	<h1> Dashboard <small> Control Panel</small></h1>
 	<ol class="breadcrumb">

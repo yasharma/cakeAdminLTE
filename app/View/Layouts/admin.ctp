@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<?php echo $this->Html->charset(); ?>
-		<title>AdminLTE | <?php echo !empty($title)?$title:'Error'; ?></title>
+		<title>AdminLTE | <?php echo $this->fetch('title'); ?></title>
 		<meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
 		<?php
 			echo $this->Html->css(

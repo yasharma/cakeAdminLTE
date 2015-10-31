@@ -1,3 +1,5 @@
+<!--  Title for layout  -->
+<?php echo $this->assign('title', 'Admin Login'); ?>
 <div class="login-box">
 	<div class="login-logo">Admin Login</div>
  	<div class="login-box-body">

@@ -4,7 +4,6 @@ class AdministratorsController extends AppController {
 	public $uses = array('Admin');
 
 	public function admin_login() {
-		$this->set('title', 'Login');
 		if ($this->Auth->loggedIn()) {
 		    return $this->redirect($this->Auth->redirect());
 		}
@@ -17,9 +16,7 @@ class AdministratorsController extends AppController {
 		}
 	}
 
-	public function admin_dashboard()
-	{
-		$this->set('title','Dashboard');
+	public function admin_dashboard() {
 	}
 
 	public function admin_logout() {
