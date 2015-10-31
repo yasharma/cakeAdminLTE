@@ -2425,3 +2425,12 @@ Request URL: /htdocs/cakeAdminLTE/
 Stack Trace:
 #0 /home/yash/htdocs/cakeAdminLTE/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2015-10-31 22:45:12 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /htdocs/cakeAdminLTE/
+Stack Trace:
+#0 /home/yash/htdocs/cakeAdminLTE/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
