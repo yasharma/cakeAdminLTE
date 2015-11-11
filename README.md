@@ -19,5 +19,5 @@ Now hit the url `http://localhost/cakeAdminLTE/admin` you are ready to go, enter
 ####CakeAdminLTE
 * cakeAdminLTE is already built with auth authentication system within the admin panel along with admin routing. 
 * open file `app/Controller/AppController.php` which is already set up using auth component for admin authentication.
-* you can use auth for authentcating for user within the else part, you will find all information [here](http://stackoverflow.com/questions/13167367/cakephp-2-x-auth-with-two-separate-logins).
-* by default if you run the application it will look for the controller class because their no controller, so you have to use `/admin` after the application name.
+* you can use auth for authentcating user within the else part, you will find all information [here](http://stackoverflow.com/questions/13167367/cakephp-2-x-auth-with-two-separate-logins).
+* by default if you run the application it will look for the controller, so you have to use `/admin` after the application name if you have not setup any other default controller.
